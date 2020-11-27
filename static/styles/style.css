@@ -1,0 +1,51 @@
+.navbar {
+    background:none;
+}
+
+.navbar-toggler-icon {
+    background-color: black;
+}
+
+.background {
+    background-image: url('../images/marble.jpg');
+    /* height: 60vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.background h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36pt;
+    font-weight: normal;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 1em;
+    padding-left: 10%;
+    /* margin: auto; */
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-link {
+    color: black;
+    font-size: 18pt;
+}
+
+.content {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    padding-top: 30px;
+    font-size: 16pt;
+    width: 40%;
+}
+
+.content p {
+    text-align: justify;
+    text-justify: inter-word;
+}
